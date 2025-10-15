@@ -1,0 +1,73 @@
+---
+title: "Yue Deng, PhD"
+description-meta: "Yue Deng, a researcher at Zhongguancun Institute of Artificial Intelligence and assistant professor at Beijing Zhongguancun Academy. His research interests are Reinforcement Learning, Multi-agent Reinforcement Learning, and Decision Large Language Model"
+image: "files/profile/photo.jpg"
+
+page-navigation: false
+toc: false
+#sidebar: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  image-width: 200px
+  links:
+    - icon: envelope-fill
+      text: E-mail
+      href: mailto:dengyue@zgci.ac.cn
+    - icon: github
+      text: Github
+      href: https://github.com/devindeng94     
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=EAJHzjUAAAAJ&hl
+      target: _blank
+
+
+include-in-header: 
+  - file: files/includes/_mswebmaster.js
+---
+
+<link rel="me" href="https://mastodon.social/@hegang">
+
+
+
+:::{#hero-heading}
+
+I am currently a Researcher at Zhongguancun Institude of Artificial Intelligence and Assitant Professor at [Beijing Zhongguancun Academy](https://www.bjzgca.edu.cn/). I had my Bachelar degree from Dalian University in 2017, Master degree from the University of Melbourne in 2020, and PhD degree from Zhejiang University in 2025. My research interests include the Multi-agent Reinforcement Learning, Decision LLM, Swarm Intelligence, and any intersection of these aspects.
+
+*I am looking for talented PhD students interested in reinforcement learning, multi-agent reinforcement learning, or decision LLM. If this is you, please apply and email me \^\_\^ !*
+
+
+My previous research primarily focuses on optimizing sample efficiency in multi-agent reinforcement learning. My PhD topic is about proposing systematic solutions to address challenges such as environmental non-stationarity, low exploration efficiency, and inaccurate value estimation in multi-agent interactions: (1) By constructing a context predictor and a joint action sampling mechanism, I achieved effective integration of supervised learning and reinforcement learning, mitigating initial estimation errors [JMLR](https://www.jmlr.org/papers/v24/23-0513.html); (2) I designed an adaptive exploration strategy based on Monte Carlo trajectory trees to balance exploration and exploitation; [IJCAI](https://www.ijcai.org/proceedings/2024/6); (3) I introduced an adaptive eligibility trace method based on the density ratio of off-policy/on-policy sample distributions to enhance value estimation accuracy; (4) Additionally, I integrated large language models with behavior tree generation techniques to construct interpretable expert policies, thereby accelerating reinforcement learning training [Arxiv](https://arxiv.org/abs/2410.16024).
+
+**Some keywords: Multi-agent System, Reinforcement Learning, LLM Coordination**
+:::
+
+## Recent Works
+
+Much of my work focuses on Multi-agent reinforcement learning algorithms and I am also interested in further exploration in MARL area.
+
+1. **Boosting Multi-agent Reinforcement Learning via Contextual Prompting** <br/>This approach replaces the Q-value function in early training stages by leveraging collected trajectories to supervise a Contextual Prompting Predictor. It incorporates a joint action sampling mechanism to constrain the action space. The predictor makes decisions while also forecasting the next state, thereby accelerating multi-agent reinforcement learning (MARL) training. The reinforcement learning model is activated only when state predictions are inaccurate, ensuring efficient learning.
+2. **Improving Multi-agent Reinforcement Learning with Stable Prefix Policy** <br/>It plans an optimal state template from existing trajectories, enforcing an initial phase of no exploration while agents conform to the template. Exploration commences thereafter upon template deviation. A complementary rebalancing technique, based on the $\epsilon$-greedy algorithm, is employed to fine-tune this process, leading to substantial gains in sample efficiency and an accelerated training convergence.
+3.  **Parallelizing Model-based Reinforcement Learning Over the Sequence Length** <br/>We proposed PaMoRL, a novel parallel reinforcement learning framework. It introduces two key techniques: a Parallel World Model (PWM) and Parallelized Eligibility Trace Estimation (PETE), which collectively address computational, memory, and time costs in model learning and policy training. Experimental results demonstrate that PaMoRL significantly accelerates training without compromising inference efficiency and outperforms both model-based and model-free RL baselines in sample efficiency.
+4.  **Adaptive TD-Lambda for Cooperative Multi-agent Reinforcement Learning** <br/>This work proposes an Adaptive TD($\lambda$) method for assigning $\lambda$ values. It utilizes a likelihood-free density ratio estimator to adaptively weight state-action pairs based on their sampling likelihood under the current policy's stationary distribution, thereby addressing the limitations of static hyperparameter configuration in TD($\lambda$). The framework further supersedes traditional importance sampling in multi-agent environments by employing a parameterized deep network, mitigating the reliance on statistical methods.
+5.  **SMAC-Hard: Enabling Mixed Opponent Strategy Script and Abilities on SMAC** <br/>We modified the StarCraft Multi-Agent Challenge (SMAC) environment by enriching the diversity of opponent strategies. This was achieved by implementing a plugin that provides a portfolio of scripted policies for opponents, supporting either random selection or learned selection among them. This created a new benchmark environment, SMAC-HARD, with a difficulty level taken from mixed opponent strategies. Furthermore, we aligned the opponent interface with that of the learning agents by providing standard MARL training interfaces (e.g., state, observation, action mask), thereby enabling self-play algorithms and contributing a valuable experimental platform to the MARL community.
+
+## Prospective Research Topics
+
+Building upon the established work and engineering experiences, we have mapped out a research roadmap for the future. The following topics represent exciting avenues we are positioned to pursue. We are equally enthusiastic about collaborating with students to co-create and explore novel research ideas within this broad domain. Other topics and ideas are also welcomed!
+
+1. Federated Hierarchical Multi-LLM-agents Coordination for Full StarCraft II Gameplay.
+2. Framework for LLM Self-Play via Behavior Tree Code Generation.
+3. LLM exploration with Semantic Random Network Distillation.
+4. Improving Multi-agent Reinforcement Learning via Latent Opponent Strategy Identification.
+5. Multi-agent Reinforcement Learning Coordinated Exploration with RND.
+6. SMAC-Hard：Enabling Mixed Opponent Strategy Script and Abilities on SMAC (Continued).
+7. Multi-LLM-agents Coordination Learning
+8. Multi-agent Reinforcement Learning Self-Play Research
+9. Multi-agent Collective Evolution and Development through Self-organization.
+
+Again! **I am looking for talented PhD students interested in reinforcement learning, multi-agent reinforcement learning, or decision LLM. If this is you, please apply and email me \^\_\^ !** 
+
