@@ -35,7 +35,7 @@ include-in-header:
 
 :::{#hero-heading}
 
-I am currently a Researcher at Zhongguancun Institude of Artificial Intelligence and Assitant Professor at [Beijing Zhongguancun Academy](https://www.bjzgca.edu.cn/). I had my Bachelar degree from Dalian University in 2017, Master degree from the University of Melbourne in 2020, and PhD degree from Zhejiang University in 2025. My research interests include the Multi-agent Reinforcement Learning, Decision LLM, Swarm Intelligence, and any intersection of these aspects.
+I am currently a Researcher at Zhongguancun Institude of Artificial Intelligence and Assitant Professor at Beijing [Zhongguancun Academy](https://www.bjzgca.edu.cn/). I had my Bachelar degree from Dalian University in 2017, Master degree from the University of Melbourne in 2020, and PhD degree from Zhejiang University in 2025. My research interests include the Multi-agent Reinforcement Learning, Decision LLM, Swarm Intelligence, and any intersection of these aspects.
 
 *I am looking for talented PhD students interested in reinforcement learning, multi-agent reinforcement learning, or decision LLM. If this is you, please apply and email me \^\_\^ !*
 
